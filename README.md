@@ -94,7 +94,7 @@ Built using **Django, Scikit-learn, Pandas, MySQL**, and visualization libraries
 
 ### Prediction Page
 ![](Prediction_Page_1.png)
-![](Prediction_Page.png)
+![](Prediction_Page_2.png)
 
 ## Result Validation Page
 ![](Result.png)
