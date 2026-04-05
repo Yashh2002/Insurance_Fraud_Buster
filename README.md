@@ -90,7 +90,7 @@ Built using **Django, Scikit-learn, Pandas, MySQL**, and visualization libraries
 ![](Login_Page.png)
 
 ### Train Form Page
-![](Train_Page.png])
+![](Train_Page.png)
 
 ### Prediction Page
 ![](Prediction_Page_1.png)
