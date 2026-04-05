@@ -24,6 +24,7 @@ Automate fraud detection
 Improve decision-making using ML predictions
 Provide interpretable insights through visualizations
 Reduce fraudulent claims and financial losses
+
 🛠️ Tech Stack
 Category	Technology
 Programming Language	Python
@@ -34,6 +35,7 @@ Data Visualization	Matplotlib, Seaborn
 Database	MySQL
 ML Algorithm	Logistic Regression
 Tools	Jupyter Notebook, Git, GitHub
+
 ⚙️ System Architecture
 User Input (Claim Form)
         ↓
@@ -48,6 +50,7 @@ Fraud Prediction Result
 MySQL Database Storage
         ↓
 Visualization Dashboard
+
 📊 Features
 1. Claim Submission Interface
 User-friendly Django form
@@ -72,6 +75,7 @@ Precision
 Recall
 F1 Score
 ROC-AUC Score
+
 📈 Model Performance
 Metric	Score
 Accuracy	~75%
@@ -79,6 +83,7 @@ Precision	Good
 Recall	Balanced
 F1-score	Optimized
 ROC-AUC	Strong separation capability
+
 📂 Project Structure
 insurance-fraud-detection/
 │
@@ -107,6 +112,7 @@ insurance-fraud-detection/
 ├── requirements.txt
 ├── manage.py
 └── README.md
+
 🔄 Workflow
 User submits insurance claim details
 Data is validated and preprocessed
@@ -114,3 +120,26 @@ ML model predicts fraud probability
 Prediction result displayed on UI
 Claim & result stored in MySQL database
 Visual insights generated for analysis
+
+📊 Example Visualizations
+Fraud vs Non-Fraud distribution
+Feature importance
+Correlation heatmap
+ROC curve
+Confusion matrix
+
+📌 Future Improvements
+Deploy model using Docker
+Add Random Forest / XGBoost for better accuracy
+Implement REST API using Django REST Framework
+Add user authentication system
+Real-time dashboard using Plotly
+Improve accuracy using feature engineering
+Add explainability using SHAP or LIME
+Deploy on AWS / Render / Railway
+
+🎯 Use Cases
+Insurance companies
+Risk assessment teams
+Fraud investigation departments
+Financial analytics teams
