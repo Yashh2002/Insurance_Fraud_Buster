@@ -1,145 +1,140 @@
-🛡️ Insurance Fraud Detection System
+# 🛡️ Insurance Fraud Detection System
 
-A Machine Learning powered web application that detects fraudulent insurance claims using Logistic Regression.
-The system enables users to submit claim details via a Django web interface and instantly receive fraud risk predictions along with visual insights.
+A **Machine Learning powered web application** that predicts fraudulent insurance claims using **Logistic Regression**.  
+Built using **Django, Scikit-learn, Pandas, MySQL**, and visualization libraries.
 
-This project demonstrates end-to-end implementation of ML + Web Development + Database integration, making it highly relevant for Python Developer / Data Analyst / ML roles.
+---
 
-🚀 Project Highlights
-Developed an ML-based fraud detection model using Logistic Regression.
-Built a Django web application for real-time insurance claim submission.
-Integrated MySQL database to store claim records and prediction results.
-Performed Exploratory Data Analysis (EDA) to identify fraud patterns.
-Evaluated model performance using Accuracy, Precision, Recall, F1-score, ROC-AUC.
-Created data visualizations using Matplotlib & Seaborn for better interpretability.
-Achieved approximately 75% model accuracy.
-🧠 Problem Statement
+## 🚀 Features
 
-Insurance fraud leads to billions of dollars in losses every year.
-Manual claim verification is time-consuming and inefficient.
+### 1️⃣ Claim Submission Interface
+- User-friendly Django form
+- Input validation
+- Stores claim details in MySQL
 
-This project aims to:
+### 2️⃣ Fraud Prediction Model
+- Logistic Regression classifier
+- Predicts fraud probability
+- Real-time prediction result
 
-Automate fraud detection
-Improve decision-making using ML predictions
-Provide interpretable insights through visualizations
-Reduce fraudulent claims and financial losses
+### 3️⃣ Exploratory Data Analysis (EDA)
+- Fraud vs Legitimate claim distribution
+- Feature correlation analysis
+- Data preprocessing & cleaning
 
-🛠️ Tech Stack
-Category	Technology
-Programming Language	Python
-Backend Framework	Django
-Machine Learning	Scikit-learn
-Data Analysis	Pandas, NumPy
-Data Visualization	Matplotlib, Seaborn
-Database	MySQL
-ML Algorithm	Logistic Regression
-Tools	Jupyter Notebook, Git, GitHub
+### 4️⃣ Visualization Dashboard
+- Count plots
+- Correlation heatmaps
+- ROC curve
+- Fraud probability charts
 
-⚙️ System Architecture
-User Input (Claim Form)
-        ↓
-Django Web Application
-        ↓
-Preprocessing Pipeline (Pandas)
-        ↓
-Trained ML Model (Logistic Regression)
-        ↓
-Fraud Prediction Result
-        ↓
-MySQL Database Storage
-        ↓
-Visualization Dashboard
+### 5️⃣ Model Evaluation Metrics
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- ROC-AUC Score
 
-📊 Features
-1. Claim Submission Interface
-User-friendly Django form
-Validates claim input data
-Stores claim details in MySQL
-2. Fraud Prediction Model
-Logistic Regression classifier
-Predicts probability of fraud
-Real-time prediction output
-3. Exploratory Data Analysis (EDA)
-Fraud vs Legitimate claim distribution
-Feature correlation analysis
-Data preprocessing and cleaning
-4. Data Visualization Dashboard
-Count plots
-Correlation heatmaps
-ROC Curve
-Fraud probability charts
-5. Model Evaluation Metrics
-Accuracy
-Precision
-Recall
-F1 Score
-ROC-AUC Score
+---
 
-📈 Model Performance
-Metric	Score
-Accuracy	~75%
-Precision	Good
-Recall	Balanced
-F1-score	Optimized
-ROC-AUC	Strong separation capability
+## 🧠 Tech Stack
 
-📂 Project Structure
-insurance-fraud-detection/
+| Category | Technology |
+|---------|------------|
+| Language | Python |
+| Framework | Django |
+| ML | Scikit-learn |
+| Data Analysis | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn |
+| Database | MySQL |
+
+---
+
+## 📊 Model Performance
+
+| Metric | Score |
+|--------|------|
+| Accuracy | 75% |
+| Precision | Good |
+| Recall | Balanced |
+| F1 Score | Optimized |
+| ROC-AUC | Strong |
+
+---
+
+## 🏗️ Project Architecture
+
+```
+[ User Input ]
+        →
+[ Django Backend ]
+        →
+[ Data Preprocessing ]
+        →
+[ Logistic Regression Model ]
+        →
+[ Fraud Prediction ]
+        →
+[ MySQL Database ]
+        →
+[ Visualization Dashboard ]
+
+```
+
+## 📸 Screenshots
+
+### Claim Form Page
+![Claim Form](C:\Users\USER\Pictures\Screenshots\Fraud_Buster\Home_Page.png])
+
+### Prediction Result
+![Prediction Result](images/result.png)
+
+### Data Visualization
+![Visualization](images/visualization.png)
+
+---
+
+## 📂 Project Structure
+```
+Insurance_Fraud_Buster
 │
-├── fraud_detection_app/
+├── fraud_detection_app
 │   ├── models.py
 │   ├── views.py
 │   ├── forms.py
-│   ├── urls.py
+│   └── urls.py
 │
-├── ml_model/
+├── ml_model
 │   ├── train_model.ipynb
 │   ├── preprocessing.py
-│   ├── model.pkl
+│   └── model.pkl
 │
-├── templates/
+├── templates
 │   ├── claim_form.html
-│   ├── result.html
+│   └── result.html
 │
-├── static/
-│   ├── css/
-│   ├── images/
+├── static
+│   ├── css
+│   └── images
 │
-├── database/
-│   ├── schema.sql
-│
+├── db.sqlite3
+├── insuranceFraud.csv
 ├── requirements.txt
 ├── manage.py
 └── README.md
+```
 
-🔄 Workflow
-User submits insurance claim details
-Data is validated and preprocessed
-ML model predicts fraud probability
-Prediction result displayed on UI
-Claim & result stored in MySQL database
-Visual insights generated for analysis
 
-📊 Example Visualizations
-Fraud vs Non-Fraud distribution
-Feature importance
-Correlation heatmap
-ROC curve
-Confusion matrix
+## 🔮 Future Improvements
+- Random Forest / XGBoost model
+- SHAP explainability
+- REST API integration
+- User authentication
+- Deploy on AWS / Render
+- Real-time dashboard
 
-📌 Future Improvements
-Deploy model using Docker
-Add Random Forest / XGBoost for better accuracy
-Implement REST API using Django REST Framework
-Add user authentication system
-Real-time dashboard using Plotly
-Improve accuracy using feature engineering
-Add explainability using SHAP or LIME
-Deploy on AWS / Render / Railway
-
-🎯 Use Cases
-Insurance companies
-Risk assessment teams
-Fraud investigation departments
-Financial analytics teams
+## 🎯 Use Cases
+- Insurance companies
+- Risk assessment teams
+- Fraud investigation departments
+- Financial analytics teams
