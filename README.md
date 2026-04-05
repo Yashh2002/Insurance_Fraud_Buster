@@ -83,14 +83,24 @@ Built using **Django, Scikit-learn, Pandas, MySQL**, and visualization libraries
 
 ## 📸 Screenshots
 
-### Claim Form Page
-![Claim Form](C:\Users\USER\Pictures\Screenshots\Fraud_Buster\Home_Page.png])
+### Home Page
+![](Home_Page.png)
 
-### Prediction Result
-![Prediction Result](images/result.png)
+### Login Page
+![](Login_Page.png)
 
-### Data Visualization
-![Visualization](images/visualization.png)
+### Train Form Page
+![](Train_Page.png])
+
+### Prediction Page
+![](Prediction_Page_1.png)
+![](Prediction_Page.png)
+
+## Result Validation Page
+![](Result.png)
+
+
+
 
 ---
 
